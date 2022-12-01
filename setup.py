@@ -1,4 +1,5 @@
-from setuptools import setup
+from distutils.core import setup
+from setuptools import find_packages
 
 setup(
     name='snowflake',
@@ -8,22 +9,8 @@ setup(
     author='Stacy Huerta',
     author_email='stacy.huerta@fau.de',
     license='Apache License 2.0',
-    packages=['snowflake'],
+    packages= find_packages(),
     install_requires=['turtles',
                       'numpy',                     
                       ],
-
-    classifiers=[
-        'Development Status :: 1 - Planning',
-        'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: Apache License 2.0',  
-        'Operating System :: POSIX :: WINDOWS',        
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.9.13',
-
-    ],
-)
+  )
