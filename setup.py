@@ -8,7 +8,7 @@ setup(
     author='Stacy Huerta',
     author_email='stacy.huerta@fau.de',
     license='Apache License 2.0',
-    packages=['Homework5'],
+    packages=['Homework_5'],
     install_requires=['mpi4py>=2.0',
                       'numpy',                     
                       ],
