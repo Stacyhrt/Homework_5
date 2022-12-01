@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='Homework_5',
+    name='snowflake',
     version='0.1.0',    
     description='Homework 5 DSSS',
     url='https://github.com/Stacyhrt/Homework_5.git',
@@ -9,7 +9,7 @@ setup(
     author_email='stacy.huerta@fau.de',
     license='Apache License 2.0',
     packages=['snowflake'],
-    install_requires=['mpi4py>=2.0',
+    install_requires=['turtles',
                       'numpy',                     
                       ],
 
